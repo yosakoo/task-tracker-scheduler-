@@ -1,0 +1,6 @@
+logger:
+  log_level: 'debug'
+rabbitmq:
+  exchange: "emails"
+  exchange_type: "direct"
+  queue: "user_emails"
